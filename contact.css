@@ -1,0 +1,96 @@
+
+.container input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+select, textarea{
+ width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;  
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: White;
+  width: 500px;
+  height: 480px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px; 
+  padding: 30px;
+
+}
+.contact{
+   text-align: center;
+}
+header{
+  display: block;
+  box-sizing: inherit;
+}
+.nav{
+  background-color: #292F33;
+  overflow: visible;
+
+}
+.nav a{
+  float: left;
+  font-size: 16px;
+  color: #55ACEE;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  width: auto;
+}
+
+.nav a:hover{
+  background-color: #66757F;
+  color: #55ACEE;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  width: auto;
+}
+footer{
+  margin-top: auto;
+  height: 60px;
+  text-align: center;
+  background-color: #292F33;
+}
+.footer{
+  color: white;
+}
+.me{
+  background-color: #66757F;
+}
